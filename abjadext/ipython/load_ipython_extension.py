@@ -41,11 +41,11 @@ def display_audio(midi_path):
 
 
 def display_svg(output_path):
-    from IPython.core.display import display_svg
+    from IPython.core.display import display_html
 
     with output_path.open() as file_pointer:
         contents = file_pointer.read()
-    display_svg(contents, raw=True)
+    display_html("<div>"+contents+"</div>", raw=True)
 
 
 def patch_graph(ipython):
