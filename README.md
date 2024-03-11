@@ -13,7 +13,7 @@ This extension was forked from `abjad-ext-ipython` and updated
 to work with latest release of abjad. `abjad-ext-ipython` extension
 has become outdated and can not be used with latest abjad releases.
 
-This extension is used by abjad to display score in ipython env directly
+This extension is used by abjad to display score in ipython notebook env directly
 with `svg` produced by lilypond.
 
 In addition, with vscode the color displayed for rendering score `svg`
