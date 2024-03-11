@@ -3,7 +3,7 @@ import pathlib
 
 import setuptools
 
-subpackage_name = "ipython"
+subpackage_name = "ipython-vscode"
 
 
 def read_version():
