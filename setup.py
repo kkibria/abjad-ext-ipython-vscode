@@ -18,12 +18,12 @@ def read_version():
 
 if __name__ == "__main__":
     setuptools.setup(
-        author="Josiah Wolf Oberholtzer",
-        author_email="josiah.oberholtzer@gmail.com",
+        author="Khan Kibria",
+        author_email="khan.kibria@gmail.com",
         classifiers=[
-            "Development Status :: 3 - Alpha",
+            "Development Status :: 1 - Alpha",
             "License :: OSI Approved :: GNU General Public License (GPL)",
-            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.10",
             "Programming Language :: Python :: Implementation :: CPython",
             "Topic :: Artistic Software",
         ],
